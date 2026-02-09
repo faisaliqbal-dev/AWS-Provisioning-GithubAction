@@ -8,8 +8,7 @@ terraform {
 }
 
 provider "aws" {
-=======
->>>>>>> 26bb5af977d2f73586f91338cd5542a47b3696ea
+
 
 }
 
