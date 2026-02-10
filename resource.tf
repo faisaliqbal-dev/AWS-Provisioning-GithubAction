@@ -3,8 +3,8 @@ module "ec2_instance" {
 
   instance_name = "Linux-Vm"
 
-  instance_type   = "t3.micro"
-  ami             = "ami-0ba8d27d35e9915fb"
-  security_groups = "sg-0676e13965795fc09"
-  count = 1
+  instance_type   = var.instance_type
+  ami             = var.ami
+  security_groups = var.security_groups
+  count = var.count
 }
