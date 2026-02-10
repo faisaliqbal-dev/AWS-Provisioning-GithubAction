@@ -11,7 +11,7 @@ variable "instance_type" {
 variable "instance_name" {
     type = string
 }
-variable "count" {
+variable "instance_count" {
     type = number
     default = 1
 }

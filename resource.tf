@@ -6,5 +6,5 @@ module "ec2_instance" {
   instance_type   = var.instance_type
   ami             = var.ami
   security_groups = var.security_groups
-  count = var.count
+  count = var.instance_count
 }
