@@ -4,7 +4,7 @@ variable "instance_type" {
 variable "ami" {
      type = string
 }
-variable "security_groups" {
+variable "security_group_id" {
 }
 variable "instance_name" {
     type = string
