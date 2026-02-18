@@ -6,7 +6,7 @@ module "ec2_instance" {
 
   instance_type     = var.instance_type
   ami               = var.ami
-  security_group_id = data.aws_security_group.selected.id
+  security_group_id = module.web_server_sg.security_group_id
   subnet_id         = module.vpc.subnet_id
   count             = 1
 }
