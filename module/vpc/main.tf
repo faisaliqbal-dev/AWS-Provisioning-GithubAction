@@ -9,7 +9,7 @@ resource "aws_vpc" "main" {
 }
 
 #Creating Subnet
-resource "aws_subnet" "main-sub" {
+resource "aws_subnet" "main_sub" {
   vpc_id     = aws_vpc.main.id
   cidr_block = var.sub_cidr
   availability_zone = var.availability_zone
