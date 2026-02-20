@@ -44,7 +44,7 @@ variable "availability_zone" {
 
 }
 #variable "security_group_id" {
- # type = string
+# type = string
 #}
 variable "name" {
   type = string
